@@ -1,0 +1,25 @@
+:root {
+    color-scheme: rgb(190, 186, 186);
+}
+
+body {
+    width: 400px;
+    padding: 10px;
+    text-align: center;    
+    font-family: Arial, sans-serif;
+}
+
+h1 { font-size: 85px; } 
+
+@media (prefers-color-scheme: dark) {
+    /* Dark Mode styles go here. */
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+}
+
+.header img {
+    margin-right: 10px; /* Space between image and heading */
+}
